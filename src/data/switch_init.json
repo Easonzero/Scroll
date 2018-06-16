@@ -1,0 +1,92 @@
+{
+  "current":1,
+  "ratio":3,
+  "hidden":false,
+  "qhidden" : true,
+  "player":{
+    "size":{
+      "h":"1.5rem",
+      "w":"0.5rem"
+    },
+    "img":"black"
+  },
+  "stageList":[
+    {
+      "state":1,
+      "bg":"bg_4.jpg",
+      "dyList":[],
+      "stList":[
+        {
+          "img":"white",
+          "pos":{
+            "x":"1rem",
+            "y":"15rem"
+          },
+          "size":{
+            "h":"1rem",
+            "w":"1rem"
+          }
+        }
+      ],
+      "text":"Question 1",
+      "qitemList":[
+        {"index":"A","text":"item 1"},
+        {"index":"B","text":"item 2"},
+        {"index":"C","text":"item 3"},
+        {"index":"D","text":"item 4"}
+      ],
+      "enter":{
+        "from":{
+          "x":"50%",
+          "y":"19.34rem"
+        },
+        "delt":{
+          "x":"0",
+          "y":"-5rem"
+        },
+        "d":2
+      }
+    },
+    {
+      "state":0,
+      "bg":"bg_3.jpg",
+      "dyList":[
+        {
+          "img":"yellow",
+          "d":5,
+          "from":{
+            "x":"1rem",
+            "y":"15rem"
+          },
+          "delt":{
+            "x":"5rem",
+            "y":"-3rem"
+          },
+          "size":{
+            "h":"1rem",
+            "w":"1rem"
+          }
+        }
+      ],
+      "stList":[],
+      "text":"Question 2",
+      "qitemList":[
+        {"index":"A","text":"item 1"},
+        {"index":"B","text":"item 2"},
+        {"index":"C","text":"item 3"},
+        {"index":"D","text":"item 4"}
+      ],
+      "enter":{
+        "from":{
+          "x":"50%",
+          "y":"19.34rem"
+        },
+        "delt":{
+          "x":"0",
+          "y":"-5rem"
+        },
+        "d":2
+      }
+    }
+  ]
+}
